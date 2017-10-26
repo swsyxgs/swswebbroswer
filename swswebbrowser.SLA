@@ -1,0 +1,22 @@
+Lib "\swsos\swslanguage.lib"
+oxc "\swswebbrowser.swsoxc"
+oxclib "\swswebbrowser.lib"
+language "\swsos\swslanguage.language"
+sws{
+ lince(=swswebbrowser=app=20=n)
+ load (lince){
+  .error{
+  sendtext "swswebbrowser cannot work on your computer"
+  unload (swswebbrowser)
+  move char
+  unload-c (me)
+  exit
+  }
+ }
+ newform(=swswebbrowser=2=2=2=2=t=t=t)
+ newoxc{
+ webbroswer(=2=2=1.5=1.5=1=1=webbrowser=www.google.com)
+ text(=.5=1.8=0=0==please enter web address=address=address)
+ button(=.5=.2)
+ }
+}
