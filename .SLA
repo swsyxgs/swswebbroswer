@@ -3,5 +3,9 @@ oxc "\swswebbroswer.swsoxc"
 oxclib "\swswebbroswer.lib"
 language "\swsos\swslanguage.language"
 sws{
-
+ lince(=swswebbroswer=app=20=n)
+ newform(=swswebbroswer=2=2=2=2=t=t=t)
+ newoxc{
+ 
+ }
 }
