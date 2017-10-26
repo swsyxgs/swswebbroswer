@@ -1,1 +1,7 @@
+Lib "\swsos\swslanguage.lib"
+oxc "\swswebbroswer.swsoxc"
+oxclib "\swswebbroswer.lib"
+language "\swsos\swslanguage.language"
+sws{
 
+}
