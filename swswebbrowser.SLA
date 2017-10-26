@@ -17,6 +17,8 @@ sws{
  newoxc{
  webbroswer(=2=2=1.5=1.5=1=1=webbrowser=www.google.com)
  text(=.5=1.8=0=0==please enter web address=address=address)
- button(=.5=.2)
+ button(=.5=.2=go=go=n)
+ file(=.3=2=.51=0=\collect\=collect=collect=collect=ture=ture=ture)
+ label(=/=/=/=/=)
  }
 }
